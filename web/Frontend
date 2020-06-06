@@ -1,0 +1,9 @@
+--Frontend--
+
+npx create-react-app [nome da pasta] --template=typescript
+
+npm start
+
+npm install react-icons 
+
+npm install react-router-dom -D

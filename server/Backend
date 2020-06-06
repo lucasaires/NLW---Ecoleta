@@ -1,0 +1,33 @@
+-- Backend--
+
+npm init -y 
+
+npm install express
+
+npm install @types/express -D 
+
+npm install ts-node -D
+
+npm instal typescript -D 
+
+npx tsc --init 
+
+npx ts-node src/server.ts
+
+npm run dev
+
+BD
+
+npm install knex
+
+npm install sqlite3 
+
+npx knex --knexfile knexfile.ts migrate:latest
+
+npx knex --knexfile knexfile.ts seed:run
+
+npm install cors
+
+npm install @types/cors -D
+
+npm install multer
